@@ -45,6 +45,15 @@ const alphabet = "abcde";
 // 最後の文字だけコンソールに出力してください
 console.log(alphabet.slice(-1));
 
+
+// 文字分割①
 const greeting = "Hi my name is Bob!";
 
- // ここに処理を書いてください。
+// ここに処理を書いてください。
+const newGreeting = greeting.split(", ");
+console.log(newGreeting);
+
+// 文字分割②
+newGreeting.forEach(element => {
+  console.log(element);
+});
